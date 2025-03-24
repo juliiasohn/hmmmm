@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    background-image: url("pipoca.webp");
+    background-size: cover; 
+    background-position: center; 
+    background-attachment: fixed; 
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif; 
+}
+
+
+#sintomaForm {
+    text-align: center;
+    background-color: #500000; 
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    width: 400px;
+}
+
+
+header h1 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #000000;
+}
+
+
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #7fe48c; 
+}
+
+
+#mensagemConfirmar {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 24px; 
+    font-weight: bold;
+    color: #080808;
+    background-color: #f8f9fa; /* Fundo claro */
+    padding: 15px;
+    border: 2px solid #660000; /* Borda azul */
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center; /* Centraliza o texto horizontalmente */
+    background-color: #300101; /* Fundo azul */
+    color: white; /* Texto branco */
+    padding: 15px; /* Espaçamento interno */
+    position: fixed; /* Mantém o rodapé fixado na parte inferior */
+    bottom: 0; /* Posicionado na base */
+    left: 0; /* Inicia na extremidade esquerda */
+    width: 100%; /* Garante que o rodapé ocupe 100% da largura */
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); /* Sombra leve no topo */
+    font-size: 14px; /* Tamanho de fonte menor */
+    z-index: 100; /* Garante que o rodapé fique acima de outros elementos */
+}
